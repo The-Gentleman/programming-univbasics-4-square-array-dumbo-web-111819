@@ -3,9 +3,9 @@ counter = 0
 newArr = []
 
 while array[counter] do 
-  p array[counter] ** 2 
+  newArr << p array[counter] ** 2 
   counter += 1 
-  newArr << array[counter]
+  
 end
 p newArr
 end 
