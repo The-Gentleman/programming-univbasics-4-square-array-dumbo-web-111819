@@ -6,7 +6,7 @@ while array[counter] do
   counter += 1 
   
 end
-return array[counter]
+print array[counter]
 end 
 
 # counter = 0
