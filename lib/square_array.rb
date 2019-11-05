@@ -1,12 +1,13 @@
 def square_array(array)
 counter = 0
+newArr = []
 
 while array[counter] do 
   p array[counter] ** 2 
   counter += 1 
-  
+  newArr << array[counter]
 end
-p array[counter]
+p newArr
 end 
 
 # counter = 0
