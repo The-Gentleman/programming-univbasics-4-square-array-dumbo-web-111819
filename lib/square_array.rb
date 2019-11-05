@@ -6,9 +6,8 @@ while array[counter] do
   sq = array[counter] ** 2 
   counter += 1 
   newArr << sq
-  p newArr 
 end
-
+p newArr
 end 
 
 # counter = 0
